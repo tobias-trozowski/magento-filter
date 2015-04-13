@@ -1,0 +1,4 @@
+{{var var1}}
+{{var var2}}
+{{var user1.name}} {{var user1.getValue()}}
+{{var user2.name}} {{var user2.value}}

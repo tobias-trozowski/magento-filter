@@ -1,0 +1,2 @@
+{{depend var1}}{{var var1}}{{/depend}}
+{{depend var2}}{{var var2}}{{/depend}}

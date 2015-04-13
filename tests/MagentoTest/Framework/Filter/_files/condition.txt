@@ -1,0 +1,2 @@
+{{if var1}}{{var var1}}{{/if}}
+{{if var2}}{{var var2}}{{else}}var2 is not set{{/if}}

@@ -1,0 +1,47 @@
+{
+  "name" : "tobias/magento-filter",
+  "description" : "Magento Filter component from Magento2",
+  "license" : "MIT",
+  "type" : "library",
+  "homepage" : "https://github.com/tobias-trozowski/magento-filter/",
+  "require" : {
+    "php" : ">=5.4",
+    "ext-iconv": "*",
+    "ext-mbstring": "*",
+    "tobias/magento-stdlib" : "dev-develop",
+    "zendframework/zendframework" : "~2.2"
+  },
+  "require-dev" : {
+    "fabpot/php-cs-fixer": "~1.0",
+    "phpunit/PHPUnit": "~4.5.0"
+  },
+  "keywords" : [ "filter" ],
+  "autoload" : {
+    "psr-4" : {
+      "Magento\\Framework\\Filter\\" : "library/Magento/Framework/Filter/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "MagentoTest\\Framework\\Filter\\": "tests/MagentoTest/Framework/Filter/"
+    }
+  },
+  "suggest" : {
+    "monolog/monolog" : "Log management"
+  },
+  "scripts": {
+    "cs": [
+      "php-cs-fixer fix --config-file=./.php_cs --dry-run -v"
+    ],
+    "cs-fix": [
+      "php-cs-fixer fix --config-file=./.php_cs -v"
+    ]
+  },
+
+  "extra": {
+    "branch-alias": {
+      "dev-master": "0.0.x-dev",
+      "dev-develop": "0.1.x-dev"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+Welcome to the unit tests!
+
+Hello, my name is {{var user.name}}.
+
+{{depend user.name}}Text which depends of name "{{var user.name}}"{{/depend}}
+
+{{if var2}}Text if var2 is there{{else}}Text if var2 is not there{{/if}}
+
+{{if var3}}Text if var3 is there
+{{else}}Text if var3 is not there{{/if}}
+
+The End!
