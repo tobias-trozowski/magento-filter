@@ -6,7 +6,6 @@
 
 namespace Magento\Framework\Filter;
 
-
 class TranslitUrl extends Translit
 {
     /**

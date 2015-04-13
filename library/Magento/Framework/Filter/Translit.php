@@ -346,8 +346,7 @@ class Translit extends AbstractFilter
      */
     public function __construct(array $translit = [])
     {
-
-        if (!emtpy($translit)) {
+        if (!empty($translit)) {
             foreach ($translit as $from => $to) {
                 $this->convertTable[strval($from)] = strval($to);
             }
